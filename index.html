@@ -6,46 +6,101 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <div id="pag">
-            <div class="container">
+        <header>
+            <div class="logo-box">
                 <img class="logo" src="img/logo.fw.png" alt="logo" />
-                <!--Banner Principal-->
-                <div class="menu menu1">
-                    <a class="selected" href="#"><p>Home</p></a>
-                    <a href="#"
-                        ><p>Nossa <br />Empresa</p></a
-                    >
-                    <a href="#"><p>Loja</p></a>
-                    <a href="#"><p>Localização</p></a>
-                    <a href="#"><p>Contato</p></a>
-                </div>
+            </div>
+            <nav class="menu menu1">
+                <a href="#">Home</a>
+                <a href="#"> Nossa<br />Empresa </a>
+                <a href="#">Loja</a>
+                <a href="#">Localização</a>
+                <a href="#">Contato</a>
+            </nav>
+            <div class="banner">
+                <img src="img/banner.fw.png" alt="Drone" />
+            </div>
+            <div class="menu menu2">
+                <a href="">Produtos</a>
+                <a href="">Loja<br />Virtual</a>
+                <a href="">Cursos</a>
+                <a href="">Serviços</a>
+            </div>
+        </header>
+        <main class="container">
+            <!--Banner Principal-->
 
-                <div class="banner">
-                    <img src="img/banner.fw.png" alt="Drone" />
-                </div>
-
-                <div class="menu menu2">
-                    <a href=""><p>Produtos</p></a>
-                    <a class="selected" href=""><p>Loja Virtual</p></a>
-                    <a href=""><p>Cursos</p></a>
-                    <a href=""><p>Serviços</p></a>
-                </div>
-
-                <div class="Titles">
-                    <div class="titulo-box">
-                        <div class="titulo-texto">
-                            <h1 class="titulo titulo1">Loja Virtual</h1>
-                        </div>
-                        <img class="titulo-imagem" src="img/imgDroneA.png" alt="Drone Título 1" />
+            <div class="titles">
+                <div class="titulo-box">
+                    <div class="titulo-texto">
+                        <h2 class="titulo titulo1">LOJA VIRTUAL</h2>
                     </div>
-                    <div class="titulo-box">
-                        <div class="titulo-texto">
-                            <h1 class="titulo titulo2">Serviços</h1>
+                    <img class="titulo-imagem" src="img/imgDroneA.png" alt="Drone Título 1" />
+                </div>
+                <div class="itens-lista">
+                    <div class="produto produto1">
+                        <div class="detalhe-produto">
+                            <p class="nome-produto nome-produto1">Dji Inspire 1</p>
+                            <img src="./img/DroneA.png" alt="Dji Inspire 1" title="Dji Inspire 1" />
+                            <p class="descricao-produto descricao-produto1">
+                                O Inspire 1 é o novo quadricóptero da DJI, capaz de capturar imagens em 4k e
+                                transmiti-las ao vivo.
+                            </p>
                         </div>
-                        <img class="titulo-imagem" src="img/imgDroneB.png" alt="Drone Título 2" />
+                        <div class="box-venda venda1">
+                            <div>
+                                <p class="preco-produto">R$ 8.000,00</p>
+                                <p class="parcela-produto">24x R$ 333,00</p>
+                            </div>
+                            <i></i>
+                        </div>
                     </div>
+                    <div class="produto produto2">
+                        <div class="detalhe-produto">
+                            <p class="nome-produto nome-produto2">Phantom 2 + Zenmuse H3-D3</p>
+                            <img
+                                src="./img/DroneB.png"
+                                alt="Phantom 2 + Zenmuse H3-D3"
+                                title="Phantom 2 + Zenmuse H3-D3"
+                            />
+                            <p class="descricao-produto descricao-produto2">
+                                O Phantom 2 é um dos quadricópteros mais desejados por quem busca um drone profissional
+                            </p>
+                        </div>
+                        <div class="box-venda venda2">
+                            <div>
+                                <p class="preco-produto">R$ 12.000,00</p>
+                                <p class="parcela-produto">24x R$ 500,00</p>
+                            </div>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="produto produto1">
+                        <div class="detalhe-produto">
+                            <p class="nome-produto nome-produto1">AR.Drone 2.0</p>
+                            <img src="./img/DroneC.png" alt="Imagem produto" />
+                            <p class="descricao-produto descricao-produto1">
+                                O AR.Drone é um dos brinquedos mais legais do mundo. A ideia de controlar um
+                                quadricóptero com um iPhone/Ipad ou Android
+                            </p>
+                        </div>
+                        <div class="box-venda venda1">
+                            <div>
+                                <p class="preco-produto">R$ 1.500,00</p>
+                                <p class="parcela-produto">R$ 1.500,00</p>
+                            </div>
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="titulo-box">
+                    <div class="titulo-texto">
+                        <h2 class="titulo titulo2">SERVIÇOS</h2>
+                    </div>
+                    <img class="titulo-imagem" src="img/imgDroneB.png" alt="Drone Título 2" />
                 </div>
             </div>
-        </div>
+        </main>
+        <footer></footer>
     </body>
 </html>
