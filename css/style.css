@@ -53,6 +53,7 @@ header {
 }
 
 .menu a:hover {
+    padding-inline: 20px;
     font-weight: 700;
     z-index: 2;
     height: 70px;
@@ -87,17 +88,14 @@ header {
     width: 100%;
     margin: auto;
     padding-bottom: 10px;
-}
-
-/* Titulos */
-
-.titles {
     display: flex;
     flex-direction: column;
 }
 
+/* Titulos */
+
 .titulo-box {
-    padding: 15px 0 0 0;
+    padding: 15px 15px 0 15px;
     display: flex;
     width: 100%;
 }
@@ -109,7 +107,7 @@ header {
 }
 
 .titulo-texto h2 {
-    padding: 3px;
+    padding-bottom: 5px;
 }
 
 .titulo-imagem {
@@ -125,12 +123,12 @@ header {
 
 .titulo1 {
     color: #660000;
-    border-bottom: 2px solid #660000;
+    border-bottom: 3px solid #660000;
 }
 
 .titulo2 {
     color: #1c8e99;
-    border-bottom: 2px solid #1c8e99;
+    border-bottom: 3px solid #1c8e99;
 }
 
 /* Itens listados */
@@ -156,13 +154,15 @@ header {
     border: 1px solid #660000;
 }
 
+/* Detalhes Produtos */
+
 .detalhe-produto {
     width: 100%;
     height: 280px;
 }
 
 .nome-produto {
-    margin: 2px;
+    margin: 4px;
     font-size: 18px;
     text-align: center;
     padding: 5px 0 5px 0;
@@ -197,13 +197,32 @@ header {
     color: #660000;
 }
 
+/* Box Venda */
+
 .box-venda {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: auto;
     height: 96px;
     margin: 0;
     color: #ffffff;
     padding: 10px 10px 0 10px;
+}
+
+.img-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 60px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.box-venda img {
+    width: 50px;
+    height: 50px;
 }
 
 .venda1 {
@@ -214,6 +233,12 @@ header {
     background-color: #660000;
 }
 
+.valores-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .preco-produto {
     font-size: 30px;
     margin: 0;
@@ -222,4 +247,83 @@ header {
 .parcela-produto {
     font-size: 14px;
     margin: 0;
+}
+
+/* Divisão */
+
+.divisao {
+    height: 15px;
+
+    margin: 0 15px 0 15px;
+    background-color: #444444;
+}
+
+/* imagens rodape */
+
+.drone-rodape1 {
+    padding-left: 10px;
+}
+
+.drone-rodape2 {
+    padding-left: 266px;
+}
+
+.drone-rodape3 {
+    padding-left: 100px;
+}
+
+/* footer */
+
+footer {
+    height: 122px;
+    width: 100%;
+}
+
+.rodape1 {
+    height: 96px;
+    background-color: #1b8e99;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.rodape2 {
+    height: 26px;
+    background-color: #660000;
+    display: flex;
+    justify-content: end;
+}
+
+.rodape2 p {
+    margin: 0;
+    padding: 0 100px 0 0;
+    text-align: right;
+    color: white;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 14px;
+}
+
+.texto-rodape {
+    color: white;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 14px;
+}
+
+.imagem-professor {
+    position: relative;
+    width: 0;
+    height: 0;
+}
+
+.imagem-professor img {
+    position: absolute;
+    left: -121px;
+    top: -173px;
+}
+
+.logo-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
 }
